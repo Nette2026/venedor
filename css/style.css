@@ -42,7 +42,60 @@ a {
 .bottom-header {
     background-color: var(--bottomheader);
 }
+/* #navSec {
+    margin: 0;
+    padding: 10px;
+} */
 
+#currency {
+    margin: 5px;
+    padding: 2px;
+    font-size: 12px;
+    background-color: #e2e2e2;
+}
+
+#lan {
+    margin: 5px;
+    padding: 2px;
+    font-size: 12px;
+    background-color: #e2e2e2;
+}
+
+#cart {
+    margin: 5px;
+    padding: 2px;
+    font-size: 12px;
+    background-color: #13bfcb;
+}
+#navBar {
+    margin-top: 10px;
+    /* margin-bottom: 1px; */
+}
+
+#navItem1 {
+    padding: 5px;
+    color: #13bfcb;
+    /* background-color: #13bfcb; */
+}
+
+#navItem2, #navItem3, #navItem4, #navItem5 {
+    padding: 5px;
+}
+#formSearch {
+    /* height: 1px; */
+    margin-bottom: 15px;
+}
+
+/*-----------------------main------------------------------------ */
+
+#brandingSection {
+    background-color: var(--branding);
+}
+
+.sliders:hover {
+    border: 1px solid red;
+    background-color: var(--h2-main);
+}
 .h2-main {
     /* width: 15%; */
     background-color: var(--h2-main);
@@ -55,8 +108,4 @@ a {
 
 .nav-link-m {
     background-color: var(--h2-main2);
-}
-
-#brandingSection {
-    background-color: var(--branding);
 }

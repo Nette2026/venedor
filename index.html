@@ -56,29 +56,36 @@
                                 <span class="navbar-toggler-icon"></span>
                                 </button>  
                             <div class="collapse navbar-collapse" id="navbarSupportContent">
-                                <nav class="nav navbar ms-auto mb-2 mb-lg-0 navList">
-                                    <a href="#" class="nav-link text-secondary text-uppercase bh-link">us dollars</a>
-                                    <a href="#" class="nav-link text-secondary text-uppercase bh-link">english</a>
-                                    <a href="#" class="nav-link text-secondary text-uppercase bh-link">0 item(s)-$0.00</a>
+                                <nav class="nav navbar ms-auto mb-2 mb-lg-0 navList" id="navSec">
+                                    <a href="#" class="nav-link text-secondary text-uppercase bh-link" id="currency">us dollars</a>
+                                    <a href="#" class="nav-link text-secondary text-uppercase bh-link" id="lan">
+                                    english</a>
+                                    <a href="#" class="nav-link text-light text-uppercase bh-link" id="cart">0 item(s) - $0.00</a>
                                 </nav>
                             </div>
                         </div>
                     </nav>
                         <div class="row">
-                            <div class="col-10">
-                                <nav class="nav-item justify-content-center">
-                                    <a href="#" class="nav-section text-secondary text-uppercase">fashion</a>
-                                    <a href="#" class="nav-section text-secondary text-uppercase">electronic</a>
-                                    <a href="#" class="nav-section text-secondary text-uppercase">gifts</a>
-                                    <a href="#" class="nav-section text-secondary text-uppercase">books</a>
-                                    <a href="#" class="nav-section text-secondary text-uppercase">at home</a>
-                                    <a href="#" class="nav-section text-secondary text-uppercase">music</a>
+                            <div class="col-8">
+                                <nav class="nav-item justify-content-center" id="navBar">
+                                    <a href="#" class="nav-section
+                                    justify-content-center text-uppercase" id="navItem1">fashion</a>
+                                    <a href="#" class="nav-section text-secondary justify-content-center text-uppercase" id="navItem2">electronic</a>
+                                    <a href="#" class="nav-section text-secondary justify-content-center text-uppercase" id="navItem3">gifts</a>
+                                    <a href="#" class="nav-section text-secondary justify-content-center text-uppercase" id="navItem3">books</a>
+                                    <a href="#" class="nav-section text-secondary justify-content-center text-uppercase" id="navItem4">at home</a>
+                                    <a href="#" class="nav-section text-secondary justify-content-center text-uppercase" id="navItem5">music</a>
                                 </nav>
                             </div>
                         </div>
-                        <div class="col-2">
-                            
-                        </div>
+                        <!-- <div class="col-4 ms-auto"> -->
+                            <form action="#" class="form d-flex" role="search"  id="formSearch">
+                                <div class="form-floating col-4 ms-auto">
+                                    <input type="search" class="form-control me-2" aria-label="Search" id="search">
+                                    <label for="search justify-content-center">Search here...</label>
+                                </div>
+                            </form>
+                        <!-- </div> -->
                     </div>
              </section>
              <main class="main" id="main">
@@ -89,12 +96,12 @@
                                 <img src="image/suit.jpg" alt="">
                             </div>
                             <div class="col-4">
-                                <h2 class="h2-main text-uppercase text-light">news</h2>
+                                <h2 class="h2-main text-uppercase text-wrap text-light">news</h2>
                                 <h2 class="h2-main2 text-uppercase text-light">men collection</h2>
                                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. In vero neque velit est dolorum corrupti accusamus ad quibusdam, omnis expedita ipsam dolores necessitatibus laboriosam eum eos non atque quaerat voluptate.</p>
                                 <a href="#" class="nav-link-m text-light">shop now</a>
                             </div>
-                            <div class="sliders">
+                            <div class="sliders d-inline-block">
                                 <div class="slider" id="slider1"></div>
                                 <div class="slider" id="slider2"></div>
                                 <div class="slider" id="slider3"></div>
