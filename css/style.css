@@ -1,0 +1,62 @@
+
+:root {    
+
+     --h2main: ;
+     --topheader: #f5f5f5;
+     --bottomheader: #ffffff;
+     --h2-main: #13bfcb;
+     --h2-main2:  #434b4d;
+     --branding: #e2e2e0;
+ }
+
+
+* {box-sizing: border-box;}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: var(--font);
+    background-color: var(--bg);
+
+}
+
+a {
+   text-decoration: none;
+}
+
+.container {
+   margin: 0 auto;
+   width: 100%;
+   /* border: 1px solid yellow; */
+}
+
+.top-header {
+    background-color: var(--topheader);
+}
+
+#thLink {
+    margin-top: 10px;
+}
+
+
+.bottom-header {
+    background-color: var(--bottomheader);
+}
+
+.h2-main {
+    /* width: 15%; */
+    background-color: var(--h2-main);
+}
+
+.h2-main2 {
+    /* width: 50%; */
+    background-color: var(--h2-main2);
+}
+
+.nav-link-m {
+    background-color: var(--h2-main2);
+}
+
+#brandingSection {
+    background-color: var(--branding);
+}
